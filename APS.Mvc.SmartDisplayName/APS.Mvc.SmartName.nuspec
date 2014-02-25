@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>APS.Mvc.SmartDisplayName.dll</id>
+    <version>1.0.0</version>
+    <title>SmartName for ASP.NET MVC</title>
+    <authors>Alex Sparkman</authors>
+    <owners>Alex Sparkman</owners>
+    <projectUrl>https://github.com/asparkman/II.Mvc.SmartName</projectUrl>
+    <iconUrl>https://raw.github.com/asparkman/II.Mvc.SmartName/master/nuget/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides smart default names for view model members in ASP.NET MVC projects.</description>
+    <releaseNotes>Initial release of package.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>ASP.NET MVC Display ComponentModel Annotations</tags>
+  </metadata>
+</package>
