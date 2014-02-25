@@ -22,6 +22,9 @@ Add the following to the Application_Start() method of the Global.asax file.
 	
 #Further Configuration
 
+App Settings
+| Setting Name | 
+|-------------|
 * appSettings
 ** DecapitalizePrepositions
 *** Purpose: If set it will decapitalize prepositions. 
