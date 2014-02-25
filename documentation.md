@@ -7,11 +7,11 @@ The view model member name is usually descriptive enough to describe it.  So how
 ASP.NET MVC has a back-end class that aggregates all of the ComponentModel annotations into one object.  The aggregation is done whenever a view is called, and it is performed on the model class of that view.  When the view is being rendered, it then uses that object to determine the outputs of the various HTML Helper extension methods like Html.LabelFor, Html.DisplayFor, and Html.EditorFor.
 
 This project provides an extension to the back-end class that does the aggregating.  Basically, the extension takes the member names of the model, and breaks them up into human-readable labels.  The process is very straightforward.
-# If a Display annotation exists for the member, use it with no modifications, otherwise continue with the following steps.
-# Break it up based on the stylistic convention - camel case or underscore delimited - into a list of words.
-# Capitalize the common acronyms, so acronyms like Xml and Id appear as XML and ID to the user.
-# Decapitalize the prepositions.
-# Decapitalize the articles.
+1. If a Display annotation exists for the member, use it with no modifications, otherwise continue with the following steps.
+2. Break it up based on the stylistic convention - camel case or underscore delimited - into a list of words.
+3. Capitalize the common acronyms, so acronyms like Xml and Id appear as XML and ID to the user.
+4. Decapitalize the prepositions.
+5. Decapitalize the articles.
 
 #How To Use
 
